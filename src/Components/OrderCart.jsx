@@ -1,4 +1,3 @@
-import axios from 'axios';
 import { useEffect, useState } from 'react';
 import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
@@ -17,17 +16,6 @@ const OrderCart = ({ show, onHide }) => {
 
     useEffect(() => {
         const fetchOrderData = async () => {
-
-
-            // try {
-            //     setLoading(true);
-            //     const res = await axios.get('http://localhost:5000/orders');
-            //     setOrders(res.data);
-            // } catch (err) {
-            //     setError(err.message);
-            // } finally {
-            //     setLoading(false);
-            // }
 
             sendRequest({
                 url: url,

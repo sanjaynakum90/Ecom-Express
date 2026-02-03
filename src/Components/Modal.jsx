@@ -78,6 +78,7 @@ const CartModal = ({ onShow, cart, onClose, clearCart }) => {
                                     <th>Image</th>
                                     <th>Name</th>
                                     <th>Price</th>
+                                    <th>Quantity</th>
                                     <th>Sub Total</th>
                                 </tr>
                             </thead>
@@ -95,6 +96,7 @@ const CartModal = ({ onShow, cart, onClose, clearCart }) => {
                                         </td>
                                         <td>{item.name}</td>
                                         <td>{item.price}</td>
+                                        <td>{item.qty}</td>
                                         <td>{item.price * item.qty}</td>
                                     </tr>
                                 ))}
