@@ -161,5 +161,32 @@
       "image": "https://images.pexels.com/photos/585750/pexels-photo-585750.jpeg"
     }
   ],
-  "orders": []
+  "orders": [
+    {
+      "id": "710f",
+      "cart": [
+        {
+          "id": "3",
+          "name": "Laptop",
+          "category": "Electronics",
+          "price": 45999,
+          "description": "Lightweight laptop suitable for work and productivity.",
+          "image": "https://images.pexels.com/photos/18105/pexels-photo.jpg",
+          "qty": 1
+        },
+        {
+          "id": "4",
+          "name": "Smart Watch",
+          "category": "Wearables",
+          "price": 3499,
+          "description": "Smartwatch with fitness tracking and notifications.",
+          "image": "https://images.pexels.com/photos/267394/pexels-photo-267394.jpeg",
+          "qty": 1
+        }
+      ],
+      "totalAmount": 49498,
+      "status": "pending",
+      "createdAt": "2026-02-03T06:56:47.504Z"
+    }
+  ]
 }
