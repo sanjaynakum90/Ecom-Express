@@ -107,9 +107,10 @@ const Product = () => {
                 />
             )}
             <Row>
+                <h1 className="text-center fw-bold my-3 p-3">Product</h1>
                 {product.map((prod) => (
                     <Col md={3} sm={6} key={prod.id}>
-                        <Card>
+                        <Card className="mb-4">
                             <Card.Img
                                 variant="top"
                                 src={prod.image}
